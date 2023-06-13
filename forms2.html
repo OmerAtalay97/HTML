@@ -14,6 +14,7 @@
 
 <body>
 
+
     <div class="container">
         <div class="col-md-6">
 
@@ -31,16 +32,37 @@
 
         <div class="form-group">
             <label for="email"></label>
-            <input type="email" id="email" class="form-control" placeholder="email">
+            <input type="email" id="email" class="form-control" placeholder="Email">
         </div>
 
         <div class="form-group">
             <label for="password"></label>
             <input type="password" id="password" class="form-control" placeholder="Password">
         </div>
+
+        <div class="form-group">
+            <label for="city"></label>
+            <select class="form-control" id="city">
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+            </select>        </div>
+
+            <div class="form-group">
+                <label for="bio">About</label>
+                <textarea rows="5" id="bio" class="form-control" placeholder="Share something about yourself with us" ></textarea>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" for="term"></label>
+                <input type="checkbox" id="term" class="form-check-input">I accept the terms.
+            </div>
+
+            <button type="submit" class="btn btn-success">Send</button>    </div>
+
         </form>
 
-        <button type="submit" class="btn btn-success">Send</button>    </div>
+        
     </div>
 
     <!-- Optional JavaScript -->
